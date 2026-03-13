@@ -53,3 +53,46 @@ The goal of this milestone is to enrich the cleaned dataset by engineering meani
 
 A fully feature-engineered and time-series structured dataset ready for forecasting model development.
 
+Milestone 3 — Model Development & Demand Forecasting
+
+> Objective
+
+The goal of this milestone is to implement predictive models using the feature-engineered dataset to forecast future cloud resource demand. This helps support proactive capacity planning and optimized infrastructure utilization.
+
+Tasks Completed
+
+• Selected resource_demand as the target variable for forecasting
+
+• Split the model-ready dataset into training and testing sets
+
+• Implemented XGBoost Regressor for machine learning based demand prediction
+
+• Implemented ARIMA time-series model to forecast demand based on historical trends
+
+• Trained both models using the prepared dataset
+
+• Generated predictions for the testing data
+
+• Evaluated model performance using regression metrics such as MAE, MSE, and RMSE
+
+• Visualized actual vs predicted demand values to analyze model performance
+
+> Project Files
+
+• milestone1,2,3.ipynb → Model development and forecasting notebook
+• milestone2_model_ready.csv → Feature-engineered dataset from Milestone-2
+
+> Technologies Used
+
+• Python
+• Pandas
+• NumPy
+• Scikit-Learn
+• XGBoost
+• Statsmodels (ARIMA)
+• Matplotlib
+
+Output of Milestone 3
+
+Successful implementation of machine learning and time-series forecasting models that predict future cloud resource demand, enabling better planning for infrastructure capacity and operational efficiency.
+
