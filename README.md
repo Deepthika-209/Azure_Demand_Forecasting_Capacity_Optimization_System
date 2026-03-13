@@ -53,6 +53,8 @@ The goal of this milestone is to enrich the cleaned dataset by engineering meani
 
 A fully feature-engineered and time-series structured dataset ready for forecasting model development.
 
+________________________________________________________________________________
+
 Milestone 3 — Model Development & Demand Forecasting
 
 > Objective
@@ -92,7 +94,7 @@ Tasks Completed
 • Statsmodels (ARIMA)
 • Matplotlib
 
-Output of Milestone 3
+> Output of Milestone 3
 
 Successful implementation of machine learning and time-series forecasting models that predict future cloud resource demand, enabling better planning for infrastructure capacity and operational efficiency.
 
